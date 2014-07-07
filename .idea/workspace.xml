@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="735554ac-975c-495b-a263-7fe2d7d02718" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Constructor.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Constructor2.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/EnumObjectClass.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/EnumObjectClass.old.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/GetterMethod.java.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addConstructor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addCtxPaths.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addFields.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addImplements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addMethods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addStates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/artefact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artefactjs-java-enum-obj-pattern.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/setClassName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/setFileType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/setOutput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="artefactjs-java-enum-obj-pattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +38,8 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.078125" vertical-offset="0" max-vertical-offset="576">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="576">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -266,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078125" vertical-offset="0" max-vertical-offset="576">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="576">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
