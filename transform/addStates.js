@@ -1,4 +1,11 @@
-
+/**
+ * creates enum states inside an enum.
+ *
+ * @param model passed data
+ * @param options global context
+ *
+ * @return {*}
+ */
 exports.transform = function( model, options ) {
     var states = [];
 /*
@@ -12,10 +19,9 @@ exports.transform = function( model, options ) {
     var _ = require( 'underscore' );
 
     model.each( ".$src > .$json >.model > .states > *", function( fieldDef ) {
-        var fieldTmpl = "private final <%= text( '.type' ) %>  <%= text( '.name' ) %>;";
         var state = {
             name : fieldDef.text( '#name' ),
-            type : fieldDef.text( '#name' )
+            type : fieldDef.text( '#type' )
         };
 
         states.push(state);

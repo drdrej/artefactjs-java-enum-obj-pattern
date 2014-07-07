@@ -14,5 +14,10 @@
     "pattern"
   ],
   "author": "drdrej",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "json-tools": "~0.2.25",
+    "string": "~1.9.0"
+  }
 }
