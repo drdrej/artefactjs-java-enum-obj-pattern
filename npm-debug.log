@@ -1,0 +1,332 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish', '--force' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn using --force I sure hope you know what you are doing.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/asiebert/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/asiebert/.npm/1f1177db-tar.lock
+16 silly lockFile fdfd1234-1330-0-17513647000305355-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+17 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz /home/asiebert/.npm/fdfd1234-1330-0-17513647000305355-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile fdfd1234-1330-0-17513647000305355-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+21 silly lockFile fdfd1234-1330-0-17513647000305355-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+22 verbose tar unpack /home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+23 silly lockFile d0830315-1330-0-17513647000305355-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+24 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package /home/asiebert/.npm/d0830315-1330-0-17513647000305355-package.lock
+25 silly lockFile fdfd1234-1330-0-17513647000305355-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+26 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz /home/asiebert/.npm/fdfd1234-1330-0-17513647000305355-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry artefact.js
+30 silly gunzTarPerm extractEntry templates/Constructor.java.tmpl
+31 silly gunzTarPerm extractEntry templates/Constructor2.java.tmpl
+32 silly gunzTarPerm extractEntry templates/EnumObjectClass.java.tmpl
+33 silly gunzTarPerm extractEntry templates/GetterMethod.java.tmpl
+34 silly gunzTarPerm extractEntry transform/addConstructor.js
+35 silly gunzTarPerm extractEntry transform/addCtxPaths.js
+36 silly gunzTarPerm extractEntry transform/addFields.js
+37 silly gunzTarPerm extractEntry transform/addImplements.js
+38 silly gunzTarPerm extractEntry transform/addMethods.js
+39 silly gunzTarPerm extractEntry transform/setClassName.js
+40 silly gunzTarPerm extractEntry transform/setFileType.js
+41 silly gunzTarPerm extractEntry transform/setOutput.js
+42 silly lockFile d0830315-1330-0-17513647000305355-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+43 silly lockFile d0830315-1330-0-17513647000305355-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+44 silly lockFile fdfd1234-1330-0-17513647000305355-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+45 silly lockFile fdfd1234-1330-0-17513647000305355-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/tmp.tgz
+46 verbose tar pack [ '/home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz',
+46 verbose tar pack   '/home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package' ]
+47 verbose tarball /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+48 verbose folder /home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+49 silly lockFile d0830315-1330-0-17513647000305355-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+50 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package /home/asiebert/.npm/d0830315-1330-0-17513647000305355-package.lock
+51 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+52 verbose lock tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz /home/asiebert/.npm/96ee3746-um-obj-pattern-0-0-1-package-tgz.lock
+53 silly lockFile d0830315-1330-0-17513647000305355-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+54 silly lockFile d0830315-1330-0-17513647000305355-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638011330-0.17513647000305355/package
+55 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+56 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+57 silly lockFile 2359715f-a-enum-obj-pattern-0-0-1-package /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+58 verbose lock /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package /home/asiebert/.npm/2359715f-a-enum-obj-pattern-0-0-1-package.lock
+59 silly lockFile 2359715f-a-enum-obj-pattern-0-0-1-package /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+60 silly lockFile 2359715f-a-enum-obj-pattern-0-0-1-package /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+61 verbose tar unpack /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+62 silly lockFile 55b81f0f-a-enum-obj-pattern-0-0-1-package tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+63 verbose lock tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package /home/asiebert/.npm/55b81f0f-a-enum-obj-pattern-0-0-1-package.lock
+64 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+65 verbose lock tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz /home/asiebert/.npm/96ee3746-um-obj-pattern-0-0-1-package-tgz.lock
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry artefact.js
+69 silly gunzTarPerm extractEntry templates/Constructor.java.tmpl
+70 silly gunzTarPerm extractEntry templates/Constructor2.java.tmpl
+71 silly gunzTarPerm extractEntry templates/EnumObjectClass.java.tmpl
+72 silly gunzTarPerm extractEntry templates/GetterMethod.java.tmpl
+73 silly gunzTarPerm extractEntry transform/addConstructor.js
+74 silly gunzTarPerm extractEntry transform/addCtxPaths.js
+75 silly gunzTarPerm extractEntry transform/addFields.js
+76 silly gunzTarPerm extractEntry transform/addImplements.js
+77 silly gunzTarPerm extractEntry transform/addMethods.js
+78 silly gunzTarPerm extractEntry transform/setClassName.js
+79 silly gunzTarPerm extractEntry transform/setFileType.js
+80 silly gunzTarPerm extractEntry transform/setOutput.js
+81 silly lockFile 55b81f0f-a-enum-obj-pattern-0-0-1-package tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+82 silly lockFile 55b81f0f-a-enum-obj-pattern-0-0-1-package tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+83 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+84 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+85 verbose chmod /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz 644
+86 verbose chown /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz [ 1000, 1000 ]
+87 silly lockFile 3a52ce78- .
+88 silly lockFile 3a52ce78- .
+89 silly publish { name: 'artefactjs-java-enum-obj-pattern',
+89 silly publish   version: '0.0.1',
+89 silly publish   description: 'artefactjs extension to create EnumObjectPattern artefacts',
+89 silly publish   main: 'artefact.js',
+89 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+89 silly publish   keywords: [ 'artefactjs', 'extension', 'plugin', 'java', 'pattern' ],
+89 silly publish   author: { name: 'drdrej' },
+89 silly publish   license: 'MIT',
+89 silly publish   readme: 'ERROR: No README data found!',
+89 silly publish   _id: 'artefactjs-java-enum-obj-pattern@0.0.1',
+89 silly publish   dist: { shasum: '45ee2c81f8d56d724e363ca2db6d4cf81e40ed20' },
+89 silly publish   _from: '.' }
+90 verbose url raw artefactjs-java-enum-obj-pattern
+91 verbose url resolving [ 'https://registry.npmjs.org/',
+91 verbose url resolving   './artefactjs-java-enum-obj-pattern' ]
+92 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+93 info trying registry request attempt 1 at 11:13:31
+94 http PUT https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+95 http 201 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+96 verbose url raw artefactjs-java-enum-obj-pattern
+97 verbose url resolving [ 'https://registry.npmjs.org/',
+97 verbose url resolving   './artefactjs-java-enum-obj-pattern' ]
+98 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+99 info trying registry request attempt 1 at 11:13:32
+100 http GET https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+101 http 200 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+102 warn publish Forced publish over artefactjs-java-enum-obj-pattern@0.0.1
+103 verbose url raw artefactjs-java-enum-obj-pattern
+104 verbose url resolving [ 'https://registry.npmjs.org/',
+104 verbose url resolving   './artefactjs-java-enum-obj-pattern' ]
+105 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+106 info trying registry request attempt 1 at 11:13:32
+107 http GET https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+108 http 200 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+109 silly registry.get cb [ 200,
+109 silly registry.get   { date: 'Sun, 06 Jul 2014 09:13:32 GMT',
+109 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+109 silly registry.get     etag: '"2WXQO6BTJBAB5PWPH7JXK85MV"',
+109 silly registry.get     'content-type': 'application/json',
+109 silly registry.get     'cache-control': 'max-age=30',
+109 silly registry.get     'content-length': '1382',
+109 silly registry.get     'accept-ranges': 'bytes',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     'x-served-by': 'cache-ams4122-AMS',
+109 silly registry.get     'x-cache': 'MISS',
+109 silly registry.get     'x-cache-hits': '0',
+109 silly registry.get     'x-timer': 'S1404638012.793950,VS0,VE158',
+109 silly registry.get     vary: 'Accept',
+109 silly registry.get     'keep-alive': 'timeout=10, max=50',
+109 silly registry.get     connection: 'Keep-Alive' } ]
+110 verbose unpublish removing attachments { shasum: 'b383701eacc8ab7aaed6d9596c1a82ed172fde4f',
+110 verbose unpublish   tarball: 'http://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz' }
+111 info unpublish No versions remain, removing entire package
+112 verbose url raw artefactjs-java-enum-obj-pattern/-rev/5-7d819867d0143c59090eda369bf3da8d
+113 verbose url resolving [ 'https://registry.npmjs.org/',
+113 verbose url resolving   './artefactjs-java-enum-obj-pattern/-rev/5-7d819867d0143c59090eda369bf3da8d' ]
+114 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-rev/5-7d819867d0143c59090eda369bf3da8d
+115 info trying registry request attempt 1 at 11:13:32
+116 http DELETE https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-rev/5-7d819867d0143c59090eda369bf3da8d
+117 http 201 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-rev/5-7d819867d0143c59090eda369bf3da8d
+118 verbose publish [ '.' ]
+119 verbose cache add [ '.', null ]
+120 verbose cache add name=undefined spec="." args=[".",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: '.',
+121 verbose parsed url   path: '.',
+121 verbose parsed url   href: '.' }
+122 silly lockFile 3a52ce78- .
+123 verbose lock . /home/asiebert/.npm/3a52ce78-.lock
+124 verbose tar pack [ '/home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz',
+124 verbose tar pack   '.' ]
+125 verbose tarball /home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+126 verbose folder .
+127 silly lockFile 1f1177db-tar tar://.
+128 verbose lock tar://. /home/asiebert/.npm/1f1177db-tar.lock
+129 silly lockFile f100cc70-13596-0-9507276257500052-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+130 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz /home/asiebert/.npm/f100cc70-13596-0-9507276257500052-tmp-tgz.lock
+131 silly lockFile 1f1177db-tar tar://.
+132 silly lockFile 1f1177db-tar tar://.
+133 silly lockFile f100cc70-13596-0-9507276257500052-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+134 silly lockFile f100cc70-13596-0-9507276257500052-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+135 verbose tar unpack /home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+136 silly lockFile 81a25249-13596-0-9507276257500052-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+137 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package /home/asiebert/.npm/81a25249-13596-0-9507276257500052-package.lock
+138 silly lockFile f100cc70-13596-0-9507276257500052-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+139 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz /home/asiebert/.npm/f100cc70-13596-0-9507276257500052-tmp-tgz.lock
+140 silly gunzTarPerm modes [ '755', '644' ]
+141 silly gunzTarPerm extractEntry package.json
+142 silly gunzTarPerm extractEntry artefact.js
+143 silly gunzTarPerm extractEntry templates/Constructor.java.tmpl
+144 silly gunzTarPerm extractEntry templates/Constructor2.java.tmpl
+145 silly gunzTarPerm extractEntry templates/EnumObjectClass.java.tmpl
+146 silly gunzTarPerm extractEntry templates/GetterMethod.java.tmpl
+147 silly gunzTarPerm extractEntry transform/addConstructor.js
+148 silly gunzTarPerm extractEntry transform/addCtxPaths.js
+149 silly gunzTarPerm extractEntry transform/addFields.js
+150 silly gunzTarPerm extractEntry transform/addImplements.js
+151 silly gunzTarPerm extractEntry transform/addMethods.js
+152 silly gunzTarPerm extractEntry transform/setClassName.js
+153 silly gunzTarPerm extractEntry transform/setFileType.js
+154 silly gunzTarPerm extractEntry transform/setOutput.js
+155 silly lockFile 81a25249-13596-0-9507276257500052-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+156 silly lockFile 81a25249-13596-0-9507276257500052-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+157 silly lockFile f100cc70-13596-0-9507276257500052-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+158 silly lockFile f100cc70-13596-0-9507276257500052-tmp-tgz tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/tmp.tgz
+159 verbose tar pack [ '/home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz',
+159 verbose tar pack   '/home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package' ]
+160 verbose tarball /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+161 verbose folder /home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+162 silly lockFile 81a25249-13596-0-9507276257500052-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+163 verbose lock tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package /home/asiebert/.npm/81a25249-13596-0-9507276257500052-package.lock
+164 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+165 verbose lock tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz /home/asiebert/.npm/96ee3746-um-obj-pattern-0-0-1-package-tgz.lock
+166 silly lockFile 81a25249-13596-0-9507276257500052-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+167 silly lockFile 81a25249-13596-0-9507276257500052-package tar:///home/asiebert/tmp/npm-3885-MjrzTmzM/1404638013596-0.9507276257500052/package
+168 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+169 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+170 silly lockFile 2359715f-a-enum-obj-pattern-0-0-1-package /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+171 verbose lock /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package /home/asiebert/.npm/2359715f-a-enum-obj-pattern-0-0-1-package.lock
+172 silly lockFile 2359715f-a-enum-obj-pattern-0-0-1-package /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+173 silly lockFile 2359715f-a-enum-obj-pattern-0-0-1-package /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+174 verbose tar unpack /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+175 silly lockFile 55b81f0f-a-enum-obj-pattern-0-0-1-package tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+176 verbose lock tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package /home/asiebert/.npm/55b81f0f-a-enum-obj-pattern-0-0-1-package.lock
+177 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+178 verbose lock tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz /home/asiebert/.npm/96ee3746-um-obj-pattern-0-0-1-package-tgz.lock
+179 silly gunzTarPerm modes [ '755', '644' ]
+180 silly gunzTarPerm extractEntry package.json
+181 silly gunzTarPerm extractEntry artefact.js
+182 silly gunzTarPerm extractEntry templates/Constructor.java.tmpl
+183 silly gunzTarPerm extractEntry templates/Constructor2.java.tmpl
+184 silly gunzTarPerm extractEntry templates/EnumObjectClass.java.tmpl
+185 silly gunzTarPerm extractEntry templates/GetterMethod.java.tmpl
+186 silly gunzTarPerm extractEntry transform/addConstructor.js
+187 silly gunzTarPerm extractEntry transform/addCtxPaths.js
+188 silly gunzTarPerm extractEntry transform/addFields.js
+189 silly gunzTarPerm extractEntry transform/addImplements.js
+190 silly gunzTarPerm extractEntry transform/addMethods.js
+191 silly gunzTarPerm extractEntry transform/setClassName.js
+192 silly gunzTarPerm extractEntry transform/setFileType.js
+193 silly gunzTarPerm extractEntry transform/setOutput.js
+194 silly lockFile 55b81f0f-a-enum-obj-pattern-0-0-1-package tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+195 silly lockFile 55b81f0f-a-enum-obj-pattern-0-0-1-package tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package
+196 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+197 silly lockFile 96ee3746-um-obj-pattern-0-0-1-package-tgz tar:///home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz
+198 verbose chmod /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz 644
+199 verbose chown /home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz [ 1000, 1000 ]
+200 silly lockFile 3a52ce78- .
+201 silly lockFile 3a52ce78- .
+202 silly publish { name: 'artefactjs-java-enum-obj-pattern',
+202 silly publish   version: '0.0.1',
+202 silly publish   description: 'artefactjs extension to create EnumObjectPattern artefacts',
+202 silly publish   main: 'artefact.js',
+202 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+202 silly publish   keywords: [ 'artefactjs', 'extension', 'plugin', 'java', 'pattern' ],
+202 silly publish   author: { name: 'drdrej' },
+202 silly publish   license: 'MIT',
+202 silly publish   readme: 'ERROR: No README data found!',
+202 silly publish   _id: 'artefactjs-java-enum-obj-pattern@0.0.1',
+202 silly publish   dist:
+202 silly publish    { shasum: '45ee2c81f8d56d724e363ca2db6d4cf81e40ed20',
+202 silly publish      tarball: 'http://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz' },
+202 silly publish   _from: '.',
+202 silly publish   _npmVersion: '1.3.10',
+202 silly publish   _npmUser: { name: 'drdrej', email: 'andrej.siebert@googlemail.com' } }
+203 verbose url raw artefactjs-java-enum-obj-pattern
+204 verbose url resolving [ 'https://registry.npmjs.org/',
+204 verbose url resolving   './artefactjs-java-enum-obj-pattern' ]
+205 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+206 info trying registry request attempt 1 at 11:13:33
+207 http PUT https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+208 http 201 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+209 verbose url raw artefactjs-java-enum-obj-pattern
+210 verbose url resolving [ 'https://registry.npmjs.org/',
+210 verbose url resolving   './artefactjs-java-enum-obj-pattern' ]
+211 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+212 info trying registry request attempt 1 at 11:13:34
+213 http GET https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+214 http 200 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern
+215 verbose uploading [ 'artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz/-rev/7-fb5ccacc89289d0d09e33ad12eef282d',
+215 verbose uploading   '/home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz' ]
+216 verbose url raw artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz/-rev/7-fb5ccacc89289d0d09e33ad12eef282d
+217 verbose url resolving [ 'https://registry.npmjs.org/',
+217 verbose url resolving   './artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz/-rev/7-fb5ccacc89289d0d09e33ad12eef282d' ]
+218 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz/-rev/7-fb5ccacc89289d0d09e33ad12eef282d
+219 info trying registry request attempt 1 at 11:13:34
+220 http PUT https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz/-rev/7-fb5ccacc89289d0d09e33ad12eef282d
+221 http 201 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/-/artefactjs-java-enum-obj-pattern-0.0.1.tgz/-rev/7-fb5ccacc89289d0d09e33ad12eef282d
+222 verbose publish attached [ 'artefactjs-java-enum-obj-pattern',
+222 verbose publish   '/home/asiebert/.npm/artefactjs-java-enum-obj-pattern/0.0.1/package.tgz',
+222 verbose publish   'artefactjs-java-enum-obj-pattern-0.0.1.tgz' ]
+223 verbose url raw artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+224 verbose url resolving [ 'https://registry.npmjs.org/',
+224 verbose url resolving   './artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest' ]
+225 verbose url resolved https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+226 info trying registry request attempt 1 at 11:13:35
+227 http PUT https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+228 http 403 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+229 info trying registry request attempt 1 at 11:13:36
+230 http PUT https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+231 http 403 https://registry.npmjs.org/artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+232 error publish Error uploading package
+233 error Error: forbidden Cannot replace previously published version: 0.0.1: artefactjs-java-enum-obj-pattern/0.0.1/-tag/latest
+233 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+233 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+233 error     at Request.EventEmitter.emit (events.js:98:17)
+233 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+233 error     at Request.EventEmitter.emit (events.js:117:20)
+233 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+233 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+233 error     at _stream_readable.js:920:16
+233 error     at process._tickCallback (node.js:415:13)
+234 error If you need help, you may report this log at:
+234 error     <http://github.com/isaacs/npm/issues>
+234 error or email it to:
+234 error     <npm-@googlegroups.com>
+235 error System Linux 3.13.0-24-generic
+236 error command "/usr/bin/nodejs" "/usr/bin/npm" "publish" "--force"
+237 error cwd /home/asiebert/projects/nodejs-artefactjs/artefacts/arefactsjs-java-enum-obj-pattern
+238 error node -v v0.10.25
+239 error npm -v 1.3.10
+240 verbose exit [ 1, true ]
