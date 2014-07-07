@@ -1,4 +1,5 @@
 // package xyz
+package <%= text( '#packageName' ) %>
 
 // imports
 <% each( '.model > .imports > *', function( entry ) { %>
@@ -8,8 +9,13 @@ import <%= entry.text() %>;
 public enum <%= text( '#className' ) %> <%= text('#implements') %>
 {
 
+       <% each( '#states', function( state ) { %>
+           <%= state.text() %>
+       <% }) %>
+
+
        <% each( '#fields', function( field ) { %>
-          <%= field.text() %>;
+          <%= field.text() %>
        <% }) %>
 
        <% each( '#constructors', function( constructor ) { %>

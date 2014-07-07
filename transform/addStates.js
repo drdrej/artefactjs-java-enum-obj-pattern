@@ -7,47 +7,37 @@
  * @return {*}
  */
 exports.transform = function( model, options ) {
-    var states = [];
-/*
-    var parsedStates = model.first( '.$src > .$json > .model > .states' );
-
-    if( !parsedStates )
-    {
-        return model;
-    }
-*/
+    var tmpl = "file://" + __dirname +"/../templates/State.java.tmpl";
     var _ = require( 'underscore' );
 
-    model.each( ".$src > .$json >.model > .states > *", function( fieldDef ) {
+    var states = model.first( '.$src > .$json >.model > .states' );
+
+    var rval = [];
+    var keys = _.keys(states);
+
+    _.each( keys, function( key ) {
+        var values = states[key];
+
         var state = {
-            name : fieldDef.text( '#name' ),
-            type : fieldDef.text( '#type' )
+            name : key,
+            values : values
         };
 
-        states.push(state);
+        var JsonTools = require('json-tools');
+        var json = JsonTools.selectable( state );
+
+        var rendered = json.render(tmpl);
+
+        if( rendered ) {
+            var S = require( 'string' );
+            rendered = S(rendered).collapseWhitespace().s;
+        }
+
+        rval.push(rendered);
     });
 
-    /*
-    model.put( "#fields", fields );
+    model.put( '#states', rval );
 
 
-    var methods = [];
-
-    var tmpl = "file://" + __dirname +"/../templates/GetterMethod.java.tmpl";
-
-    model.each( ".$src > .$json > .model > .values > *",
-        function( fieldDef ) {
-            var S = require( 'string' );
-            var name = fieldDef.text( '#name' );
-            var methodName = "get" + S(name).capitalize();
-
-            fieldDef.put( '#methodName', methodName);
-
-            var field = fieldDef.render( tmpl );
-            methods.push(field);
-        });
-
-    model.put( '#methods', methods);
-*/
     return model;
 };
