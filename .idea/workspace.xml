@@ -2,14 +2,324 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="735554ac-975c-495b-a263-7fe2d7d02718" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pckg/TestEnum.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transform/addPackage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_addCtxParams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_addPackage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/EnumObjectClass.java.tmpl" afterPath="$PROJECT_DIR$/templates/EnumObjectClass.java.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transform/addCtxPaths.js" afterPath="$PROJECT_DIR$/transform/addCtxPaths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artefact.js" afterPath="$PROJECT_DIR$/artefact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transform/setClassName.js" afterPath="$PROJECT_DIR$/transform/setClassName.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/libraries/nodejs_json_get_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/nodejs-json-get.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/Pipe.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/SelectableFactory.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/api.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/asText.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/global.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/json.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/scripts/linenumber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/scripts/prettify/Apache-License-2.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/scripts/prettify/lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/scripts/prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/styles/jsdoc-default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/styles/prettify-jsdoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/doc/json-tools/0.2.21/styles/prettify-tomorrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/Pipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/Selectable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/SelectableFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/asText.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/asserts/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/asserts/isFilePath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/asserts/isObject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/asserts/isTrue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/asArray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/asSelectable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/dumpV2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/finished.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/helper/handleDataWriting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/renderV3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/selectV2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/io/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/query/match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/template/readFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/template/renderPath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/template/renderTmpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/impl/template/writeFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/JSONSelect.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/jsonselect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/conformance_tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/js/conf_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/js/doctest.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/js/doctest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/js/jquery-1.6.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/lex_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/match_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/parse_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_first-child.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_first-child.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_grouping.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_grouping.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id_multiple.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id_multiple.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id_quotes.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id_quotes.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id_with_type.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_id_with_type.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_last-child.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_last-child.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child-2.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child-2.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-last-child.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-last-child.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_root_pseudo.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_root_pseudo.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_type.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_type.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_type2.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_type2.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_type3.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_type3.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_universal.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/basic_universal.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision_nested.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision_nested.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision_quoted-string.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision_quoted-string.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision_string.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_1/collision_string.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling_childof.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling_childof.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling_descendantof.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling_descendantof.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling_unrooted.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_2/sibling_unrooted.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-multiple.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-multiple.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-root-in-expr.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-root-in-expr.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-first-paren.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-first-paren.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-paren.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-paren.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-whitespace.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-whitespace.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-with-comma.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has-with-comma.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_has.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_multiple-has-with-strings.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/basic_multiple-has-with-strings.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_div.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_div.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_ends-with.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_ends-with.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_false-eq.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_false-eq.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_greater-than.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_greater-than.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_less-than.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_less-than.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_mod.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_mod.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_mult.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_mult.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_null-eq.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_null-eq.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_number-eq.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_number-eq.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-1.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-1.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-2.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-2.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_simple-false.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_simple-false.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_simple.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_simple.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_starts-with.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_starts-with.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_string-eq.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_string-eq.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_true-eq.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/expr_true-eq.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/polykids.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/polykids_has-with_descendant.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/polykids_has-with_descendant.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/polykids_val.output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/JSONSelect/src/test/tests/level_3/polykids_val.selector" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/examples/pretty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/duplexer/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/LICENSE.APACHE2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/LICENSE.MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/from/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/examples/pretty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/map-stream/test/simple-map.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/pause-stream/test/pause-end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/examples/pretty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/test/partitioned_unicode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/test/split.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/split/test/try_catch.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/stream-combiner/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/LICENSE.APACHE2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/LICENSE.MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/test/auto-destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/test/buffering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/test/end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/node_modules/through/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/connect.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/helper/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/merge.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/pause.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/pipeline.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/readArray.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/readable.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/replace.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/simple-map.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/spec.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/split.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/event-stream/test/writeArray.asynct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/.documentup.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/lib/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/lib/string.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/test/browser.test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/test/mocha.opts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/string/test/string.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/underscore/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/underscore/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/underscore/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/underscore/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/underscore/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/lib/wrench.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/copydirsync_unix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/mkdir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/readdir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/readdir/bar.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/readdir/foo/bar/ipsum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/readdir/foo/dolor.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/readdir/foo/lorem.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/rmdirSyncRecursive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/shown/.hidden.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/shown/.hidden/dolor.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/shown/bar.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/shown/foo/bar/ipsum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/shown/foo/dolor.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/shown/foo/lorem.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/node_modules/wrench/tests/withsymlinks/test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/dump/persons.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/dumped/AAA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/dumped/BBB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/dumped/CCC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/rendered/rendered_person_AAA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/rendered/rendered_person_BBB.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/rendered/rendered_person_CCC.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/rendered/rendered_persons.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_ExternalTransformation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_asString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_class_vs_id_selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_dump.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_each_over_StringArray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_json_consume_later.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_put.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_render_In_selectable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_render_stream_in_file.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_render_stream_in_file2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_selectable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/test_selectable_text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/tmpl/test_render_every_person.txt.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/tmpl/test_render_in_selectable.txt.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/tmpl/test_render_persons.txt.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/json-tools/test/transform/addTestVar.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_addPackage.js" afterPath="$PROJECT_DIR$/test/test_addPackage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="artefactjs-java-enum-obj-pattern.iws" />
@@ -43,10 +353,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="435">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="artefact.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artefact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="525">
               <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
@@ -63,11 +383,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addPackage.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="addPackage.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transform/addPackage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.173913" vertical-offset="210" max-vertical-offset="810">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="810">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_addPackage.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_addPackage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="900">
+              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -89,7 +419,6 @@
         <option value="$PROJECT_DIR$/templates/Constructor.java.tmpl" />
         <option value="$PROJECT_DIR$/test/TestEnum.json" />
         <option value="$PROJECT_DIR$/test/test_addStates.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/json-tools/impl/Selectable.js" />
         <option value="$PROJECT_DIR$/transform/addStates.js" />
         <option value="$PROJECT_DIR$/templates/State.java.tmpl" />
@@ -97,9 +426,10 @@
         <option value="$PROJECT_DIR$/templates/EnumObjectClass.java.tmpl" />
         <option value="$PROJECT_DIR$/artefact.js" />
         <option value="$PROJECT_DIR$/test/test_addCtxParams.js" />
-        <option value="$PROJECT_DIR$/test/test_addPackage.js" />
         <option value="$PROJECT_DIR$/transform/addCtxPaths.js" />
         <option value="$PROJECT_DIR$/transform/addPackage.js" />
+        <option value="$PROJECT_DIR$/test/test_addPackage.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -137,7 +467,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,20 +482,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="artefactjs-java-enum-obj-pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefactjs-java-enum-obj-pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artefactjs-java-enum-obj-pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,12 +527,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,6 +553,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Mocha.test all">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -247,12 +571,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -260,16 +586,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -328,11 +644,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3472119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3472119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5885168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6267943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6283892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -349,7 +665,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5885168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5885168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -357,9 +673,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3472119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6267943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6267943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -391,19 +707,31 @@
           <line>33</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test_addPackage.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="41" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/test_addPackage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="900">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Constructor.java.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="2" column="79" selection-start-line="1" selection-start-column="33" selection-end-line="2" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -435,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="510">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="300">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
           <caret line="2" column="79" selection-start-line="1" selection-start-column="33" selection-end-line="2" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="510">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="300">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
           <caret line="2" column="79" selection-start-line="1" selection-start-column="33" selection-end-line="2" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="510">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="300">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08108108" vertical-offset="0" max-vertical-offset="185">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,23 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/json-tools/impl/Pipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5222223" vertical-offset="1549" max-vertical-offset="2100">
-          <caret line="73" column="33" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16393442" vertical-offset="0" max-vertical-offset="435">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="207">
           <caret line="2" column="79" selection-start-line="1" selection-start-column="33" selection-end-line="2" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,14 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/json-tools/impl/Selectable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5640244" vertical-offset="1570" max-vertical-offset="1920">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -781,18 +1066,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_addPackage.js">
+    <entry file="file://$PROJECT_DIR$/transform/addPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="6" max-vertical-offset="900">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="810">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transform/addPackage.js">
+    <entry file="file://$PROJECT_DIR$/test/test_addPackage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.173913" vertical-offset="210" max-vertical-offset="810">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="900">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="435">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>

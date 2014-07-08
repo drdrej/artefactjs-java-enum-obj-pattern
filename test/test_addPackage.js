@@ -20,7 +20,7 @@ describe('Transformation addPackage()', function () {
 
         assert.ok(rval);
         assert.ok( rval.$isSelectable );
-        assert.equal( rval.json.packageName, "" );
+        assert.equal( rval.json.packageName, undefined );
 
         done();
     });
