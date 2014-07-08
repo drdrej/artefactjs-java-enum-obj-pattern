@@ -1,3 +1,1 @@
-<%= text( '#name' ) %>( <% each( '.values > *', function( value ) { %>
-     <%= value.text() %>
-<% }) %>
+<%= text( '#name' ) %>(<%= list( '#values' ) %>)
