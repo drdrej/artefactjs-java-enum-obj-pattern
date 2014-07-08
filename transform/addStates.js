@@ -26,8 +26,6 @@ exports.transform = function( model, options ) {
         var JsonTools = require('json-tools');
         var json = JsonTools.selectable( state );
 
-       // var x = json.list('.values > *');
-
         var rendered = json.render(tmpl);
 
         if( rendered ) {
