@@ -1,5 +1,5 @@
 
-    <%= text( '#className' ) %>( <%= text( "#constructorParams" ) %> )
+    <%= text( '#className' ) %>( <%= text( "#constructorParams" ) %> )      
     {
        <% each( '.model > .fields > *', function( field ) { %>
           this.<%= field.text('#name') %> = <%= field.text('#name') %>;
