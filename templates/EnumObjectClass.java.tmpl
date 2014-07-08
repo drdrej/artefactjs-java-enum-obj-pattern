@@ -8,9 +8,7 @@ import <%= entry.text() %>;
 public enum <%= text( '#className' ) %> <%= text('#implements') %>
 {
 
-       <% each( '#states', function( state ) { %>
-           <%= state.text() %>
-       <% }) %>
+       <%= list( '#states' ) %>;
 
 
        <% each( '#fields', function( field ) { %>

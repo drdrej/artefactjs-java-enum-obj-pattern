@@ -1,6 +1,6 @@
 {
   "name": "artefactjs-java-enum-obj-pattern",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "EXÜERIMENTAL: artefactjs extension to create EnumObjectPattern artefacts",
   "main": "artefact.js",
   "scripts": {
