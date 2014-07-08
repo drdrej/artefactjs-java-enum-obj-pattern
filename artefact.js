@@ -12,7 +12,7 @@ exports.exec = function( config, options) {
         })
         .asSelectable()
         .transform( 'file://' + __dirname + '/transform/addCtxPaths' )
-        .transform( 'file://' + __dirname + '/transform/setPackage' )
+        .transform( 'file://' + __dirname + '/transform/addPackage' )
         .transform( 'file://' + __dirname + '/transform/setClassName' )
         .transform( 'file://' + __dirname + '/transform/setFileType' )
         .transform( 'file://' + __dirname + '/transform/setOutput' )
